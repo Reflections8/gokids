@@ -157,6 +157,15 @@ p {
 .width-40 {
 	width: 40%;
 }
+	.email_link {
+		text-decoration: none;
+		color: #33C3FF;
+		font-weight: 900;
+		transition: all .3s;
+	}
+		.email_link:hover {
+			color: #FFAA05;
+		}
 
 /*GAME LINKS*/
 .game_links {
