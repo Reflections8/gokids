@@ -142,10 +142,22 @@ p {
 	margin: 3% auto;
 }
 	.clue_block--first {
-		margin-bottom: 0;
+		margin: 0;
 		border: 0;
+		padding: 0;
 		background-color: #33C3FF;
+		width: 100%;
+		text-align: left;
 	}
+		.clue_block--first .clue_block__header {
+			text-align: left;
+			justify-content: start;
+			margin-left: 0;
+		}
+			.clue_block--first .clue_block__header i {
+				color: #fff;
+			}
+
 	.clue_block--end {
 		border: 1px solid #FFAA05;
 		text-align: center;
@@ -187,6 +199,27 @@ p {
 		}
 
 /*GAME LINKS*/
+.game_icon_wrap {
+	text-align: center;
+	margin-top: 4%;
+}
+
+.game_icon {
+	width: 30%;
+	max-width: 140px;
+	border-radius: 20px;
+	-webkit-box-shadow: 0 5px 15px rgb(0, 0, 0);
+	        box-shadow: 0 5px 15px rgb(0, 0, 0);
+}
+
+.game_icon_text {
+	margin: 1% auto 0 auto;
+	color: #fff;
+	width: 80%;
+	display: block;
+	text-align: center;
+}
+
 .game_links {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -280,6 +313,10 @@ p {
 	margin-top: 10%;
 }
 
+.important {
+	font-weight: 900;
+	color: #33C3FF;
+}
 
 
 /*LAST*/
@@ -387,7 +424,6 @@ p {
 		}
 		.clue_block {
 			width: 100%;
-			text-align: center;
 		}
 }
 
