@@ -159,9 +159,12 @@ p {
 			}
 
 	.clue_block--end {
-		border: 1px solid #FFAA05;
+		border: 1px solid #fff;
 		text-align: center;
 	}
+	.fas.fa-info-circle.last_i {
+			color: #fff;
+		}
 
 .clue_block__header {
 	display: -webkit-box;
