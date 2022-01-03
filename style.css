@@ -380,6 +380,12 @@ p {
 	}
 }
 
+@media screen and (max-width: 850px) {
+	.game_icon {
+		max-width: 35%;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.logo {
 		max-width: 160px;
