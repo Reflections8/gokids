@@ -202,46 +202,54 @@ p {
 		}
 
 /*GAME LINKS*/
+.game_wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .game_icon_wrap {
-	text-align: center;
-	margin-top: 4%;
+	width: 50%;
+	text-align: right;
+	margin-right: 1%;
 }
 
 .game_icon {
-	width: 30%;
-	max-width: 140px;
+	max-width: 25%;
 	border-radius: 20px;
 	-webkit-box-shadow: 0 5px 15px rgb(0, 0, 0);
 	        box-shadow: 0 5px 15px rgb(0, 0, 0);
 }
 
 .game_icon_text {
-	margin: 1% auto 0 auto;
 	color: #fff;
-	width: 80%;
-	display: block;
 	text-align: center;
+	margin-left: 2%;
+	max-width: 370px;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 1% auto;
 }
 
+
+
 .game_links {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
+	width: 50%;
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
-	        justify-content: center;
 	text-align: center;
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
 	color: #fff;
-	margin-top: 4%;
+	margin-left: 1%;
 }
 
 .game_link__item {
 	width: 50%;
 	max-width: 200px;
 	margin: 0 2%;
+	padding: 2% 0;
 }
 	.game_link__item a {
 		-webkit-transition: all .3s;
@@ -250,6 +258,9 @@ p {
 		color: #fff;
 		text-decoration: none;
 		display: block;
+		display: flex;
+		align-items: center;
+		justify-content: start;
 	}
 	.game_link__item a:hover {
 		color: #FFAA05;
@@ -258,15 +269,25 @@ p {
 		        transform: scale(1.1);
 	}
 	.game_link__item i {
-		font-size: 7em;
+		font-size: 4em;
 	}
+
+	.fab.fa-apple {
+		margin-left: 7%;
+	}
+	
 
 .game_link__text {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 200;
 	margin-top: 3%;
+	margin-left: 6%;
+	
 }
+	.link__text_1 {
+		margin-left: 13%;
+	}
 
 /*SOCIAL LINKS*/
 
@@ -406,6 +427,12 @@ p {
 	}
 }
 
+@media screen and (max-width: 650px) {
+	.game_icon {
+		max-width: 30%;
+	}
+	
+}
 
 @media screen and (max-width: 600px) {
 	.h2 {
@@ -433,6 +460,17 @@ p {
 @media screen and (max-width: 550px) {
 	p {
 		font-size: 15px;
+	}
+
+	.game_icon_text {
+		font-size: 15px;
+	}
+
+	.game_icon_wrap, .game_links {
+		margin-right: 3%;
+	}
+	.game_icon {
+		max-width: 50%;
 	}
 
 	.first_p {
@@ -482,6 +520,13 @@ p {
 		font-size: 0.7em;
 		margin: 7% auto;
 		width: 100%;
+	}
+
+	.game_icon_wrap, .game_links {
+		margin-right: 3%;
+	}
+	.game_icon {
+		max-width: 70%;
 	}
 
 	.social {
