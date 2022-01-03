@@ -19,6 +19,10 @@ body {
 }
 	.h1 {
 		margin: 0;
+		font-size: 40px;
+		font-weight: 900;
+		color: #33C3FF;
+
 	}
 		.h1 span {
 			display: none;
@@ -40,6 +44,11 @@ p {
 
 	.h2--number2 {
 		text-align: left;
+	}
+
+	.h2--first {
+		text-align: center;
+		margin-top: 0;
 	}
 
 /*HEADER*/
@@ -211,7 +220,7 @@ p {
 .game_icon_wrap {
 	width: 50%;
 	text-align: right;
-	margin-right: 1%;
+	margin-right: 3%;
 }
 
 .game_icon {
@@ -242,7 +251,7 @@ p {
 	    -ms-flex-align: center;
 	        align-items: center;
 	color: #fff;
-	margin-left: 1%;
+	margin-left: 3%;
 }
 
 .game_link__item {
@@ -358,6 +367,9 @@ p {
 	.h2.white.margin-0:after {
 		max-width: 340px;
 	}
+	.h2--first {
+		margin-top: 0;
+	}
 
 	.clues_section .clue_block {
 		width: 47%;
@@ -428,8 +440,11 @@ p {
 }
 
 @media screen and (max-width: 650px) {
+	.game_icon_wrap {
+		margin-right: 6%;
+	}
 	.game_icon {
-		max-width: 30%;
+		max-width: 40%;
 	}
 	
 }
@@ -466,11 +481,11 @@ p {
 		font-size: 15px;
 	}
 
-	.game_icon_wrap, .game_links {
-		margin-right: 3%;
+	.game_icon_wrap {
+		margin-right: 7%;
 	}
 	.game_icon {
-		max-width: 50%;
+		max-width: 40%;
 	}
 
 	.first_p {
@@ -508,12 +523,17 @@ p {
 		width: 70%;
 	}
 
+	.game_icon {
+		max-width: 47%;
+	}
+
 
 }
 
 @media screen and (max-width: 400px) {
 	.game_links {
 		display: block;
+		margin-left: 7%;
 
 	}
 	.game_link__item {
@@ -522,11 +542,11 @@ p {
 		width: 100%;
 	}
 
-	.game_icon_wrap, .game_links {
-		margin-right: 3%;
+	.game_icon_wrap {
+		margin-right: 7%;
 	}
 	.game_icon {
-		max-width: 70%;
+		max-width: 60%;
 	}
 
 	.social {
